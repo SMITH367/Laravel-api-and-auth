@@ -22,6 +22,8 @@ class User extends Authenticatable
         'email',
         'password',
     ];
+    public $timestamps = false;
+
 
     /**
      * The attributes that should be hidden for serialization.
@@ -30,7 +32,6 @@ class User extends Authenticatable
      */
     protected $hidden = [
         'password',
-        'remember_token',
     ];
 
     /**
@@ -39,7 +40,6 @@ class User extends Authenticatable
      * @var array<string, string>
      */
     protected $casts = [
-        'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
 }
