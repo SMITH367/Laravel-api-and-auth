@@ -1,3 +1,18 @@
+# Laravel with user authentication and todo list api (Completed template for proyects)
+
+Routes: 
+
+  POST            api/login ................................................................................................ UsersController@login
+  POST            api/logout .............................................................................................. UsersController@logout
+  GET|HEAD        api/profile ........................................................................................ UsersController@userProfile
+  POST            api/register .......................................................................................... UsersController@register
+  GET|HEAD        api/todo .................................................................................... todo.index › todosController@index
+  POST            api/todo .................................................................................... todo.store › todosController@store
+  GET|HEAD        api/todo/{todo} ............................................................................... todo.show › todosController@show
+  PUT|PATCH       api/todo/{todo} ........................................................................... todo.update › todosController@update
+  DELETE          api/todo/{todo} ......................................................................... todo.destroy › todosController@destroy
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
