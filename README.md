@@ -2,17 +2,37 @@
 
 Routes: 
 
+<div>
 <p>
   POST            api/login ................................................................................................ UsersController@login
+</p>
+<p>
   POST            api/logout .............................................................................................. UsersController@logout
-  GET|HEAD        api/profile ........................................................................................ UsersController@userProfile
+</p>
+<p>
+ GET|HEAD        api/profile ........................................................................................ UsersController@userProfile
+</p>
+<p>
   POST            api/register .......................................................................................... UsersController@register
+</p>
+<p>
   GET|HEAD        api/todo .................................................................................... todo.index › todosController@index
-  POST            api/todo .................................................................................... todo.store › todosController@store
+</p>
+<p>
+ POST            api/todo .................................................................................... todo.store › 
+todosController@store
+</p>
+<p>
   GET|HEAD        api/todo/{todo} ............................................................................... todo.show › todosController@show
-  PUT|PATCH       api/todo/{todo} ........................................................................... todo.update › todosController@update
+</p>
+<p>
+ PUT|PATCH       api/todo/{todo} ........................................................................... todo.update › todosController@update
+</p>
+<p>
   DELETE          api/todo/{todo} ......................................................................... todo.destroy › todosController@destroy
 </p>
+ 
+</div>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
